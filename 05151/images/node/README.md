@@ -17,7 +17,7 @@
 `Forwards Solve` 이벤트를 시작으로 시퀀스(Sequence) 노드를 통해 각 부위별 리깅 로직이 순차적으로 실행됩니다.
 
 * **주요 기능:** 실행 순서 제어 및 컨트롤러 데이터 추출 기반 다중 루프 처리
-* **파일 위치:** `images/node/2567.jpg`
+* **파일 위치:** `images/node/2567.PNG`
 
 ![Execution Flow & Finger Loop](./CharacterNode/2567.PNG)
 
@@ -31,7 +31,7 @@
 엄지(`Thumb`) 및 기타 손가락들의 자연스러운 굽힘을 구현하기 위해 단일 컨트롤러 입력값을 기반으로 다중 관절의 회전 값을 분산 처리합니다.
 
 * **주요 기능:** 컨트롤러 축 값 분할, `Distribute Rotation`을 이용한 관절 순차 회전
-* **파일 위치:** `images/node/CharacterNode/6767.jpg`
+* **파일 위치:** `images/node/CharacterNode/6767.PNG`
 
 ![Finger Rotation Distribute](./CharacterNode/6767.PNG)
 
