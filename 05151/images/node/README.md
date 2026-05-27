@@ -19,7 +19,7 @@
 * **주요 기능:** 실행 순서 제어 및 컨트롤러 데이터 추출 기반 다중 루프 처리
 * **파일 위치:** `images/node/2567.jpg`
 
-![Execution Flow & Finger Loop](./CharacterNode/2567.jpg)
+![Execution Flow & Finger Loop](./CharacterNode/2567.png)
 
 > **핵심 로직 요약:**
 > * `Forwards Solve` 호출 후 시퀀스 분기 실행
@@ -33,7 +33,7 @@
 * **주요 기능:** 컨트롤러 축 값 분할, `Distribute Rotation`을 이용한 관절 순차 회전
 * **파일 위치:** `images/node/CharacterNode/6767.jpg`
 
-![Finger Rotation Distribute](./CharacterNode/6767.jpg)
+![Finger Rotation Distribute](./CharacterNode/6767.png)
 
 > **핵심 로직 요약:**
 > * `Get Control Float`으로 컨트롤러의 특정 축 입력값을 가져옴
@@ -48,7 +48,7 @@
 * **주요 기능:** 주요 척추 라인 FK 제어 및 단순화된 발 IK 연산
 * **파일 위치:** `images/node/35357.PNG` (또는 `4225.PNG`)
 
-![Body FK & Foot IK](./35357.PNG)
+![Body FK & Foot IK](./CharacterNode/35357.PNG)
 
 > **핵심 로직 요약:**
 > * `body` 변수 구조체(`Groove`, `Hips`, `Spine`, `Chest`, `Neck`)를 `FKChain` 노드에 전달하여 상체 움직임 연동
@@ -62,7 +62,7 @@
 * **주요 기능:** 사지(Extremities)의 2본 IK 솔버 적용, 헤드 추적(LookAt) 및 시선 연동
 * **파일 위치:** `images/node/4225.PNG` (또는 `35357.PNG`)
 
-![IK Solvers & Eyes LookAt](./4225.PNG)
+![IK Solvers & Eyes LookAt](./CharacterNode/4225.PNG)
 
 > **핵심 로직 요약:**
 > * **사지 IK:** >   * 팔(`UpperArm`, `Forearm`, `Hand`) 및 다리(`ThighDeform`, `ShinDeform`, `Foot`)에 각각 `IKTwoBone` 세팅
