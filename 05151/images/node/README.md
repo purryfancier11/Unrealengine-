@@ -19,7 +19,7 @@
 * **주요 기능:** 실행 순서 제어 및 컨트롤러 데이터 추출 기반 다중 루프 처리
 * **파일 위치:** `images/node/2567.jpg`
 
-![Execution Flow & Finger Loop](./CharacterNode/2567.png)
+![Execution Flow & Finger Loop](./CharacterNode/2567.PNG)
 
 > **핵심 로직 요약:**
 > * `Forwards Solve` 호출 후 시퀀스 분기 실행
@@ -33,7 +33,7 @@
 * **주요 기능:** 컨트롤러 축 값 분할, `Distribute Rotation`을 이용한 관절 순차 회전
 * **파일 위치:** `images/node/CharacterNode/6767.jpg`
 
-![Finger Rotation Distribute](./CharacterNode/6767.png)
+![Finger Rotation Distribute](./CharacterNode/6767.PNG)
 
 > **핵심 로직 요약:**
 > * `Get Control Float`으로 컨트롤러의 특정 축 입력값을 가져옴
